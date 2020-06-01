@@ -2,35 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="logo.svg" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Mernolithic</title>
   </head>
   <body>
-    <header class="text-gray-500 bg-gray-900 body-font">
+    <header class="text-gray-500 bg-gray-900 body-font myHeader">
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
         <a
           class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
+          <img src="logo.svg" alt="" class="header-logo" />
           <span class="ml-3 text-xl">MERNolithic</span>
         </a>
         <nav
@@ -93,7 +82,7 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="./logo.svg"
           />
         </div>
       </div>
@@ -688,21 +677,8 @@
         <a
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
-          <span class="ml-3 text-xl">MERNolithic</span>
+          <img src="./logo.svg" alt="" class="footer-icon" />
+          <!-- <span class="ml-3 text-xl">MERNolithic</span> -->
         </a>
         <p
           class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
